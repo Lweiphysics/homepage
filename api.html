@@ -91,9 +91,9 @@
     
       <ul id="menu">
         <li><a href="#home">HOME</a></li>
-        <li><a href="#about-us">ABOUT ME</a></li>
-        <li><a href="#portfolio">RESEARCH</a></li>
-        <li><a href="#contact">NOTES</a></li>
+        <li><a href="#about-me">ABOUT ME</a></li>
+        <li><a href="#research">RESEARCH</a></li>
+        <li><a href="#notes">NOTES</a></li>
       </ul>
     </div>
   
@@ -146,7 +146,7 @@
 
   <!-- portoflio-->
 
-  <section class="portfolio" id="portfolio">
+  <section class="portfolio" id="research">
 
 
 
@@ -196,6 +196,63 @@
 
   
    <div class="clear"></div>  
+  
+  
+  <!-- portoflio-->
+
+  <section class="portfolio" id="notes">
+
+
+
+    <div class="portfolio-margin">
+    
+      <h1>PORTFOLIO</h1>
+      <hr/>
+    
+    <!-- 1 item portoflio-->
+    
+        <ul class="grid" id="portfolio-grid">
+        
+        <script id="portfolio-template" type="text/x-handlebars-template">
+            
+        {{#each projects}}
+        
+          <li>
+            <a href="{{this.url}}">
+            {{#if this.covers.[404]}}
+              <img src="{{this.covers.[404]}}" alt="{{this.name}}" title="{{this.name}}">
+                        {{else}}
+                        {{#if this.covers.[230]}}
+              <img src="{{this.covers.[230]}}" alt="{{this.name}}">
+                        {{else}}
+                            <img src="{{this.covers.[202]}}" alt="{{this.name}}">
+                        {{/if}}
+                        {{/if}}
+                <div class="text">
+                  <p>{{this.name}}</p>
+                  <p class="description">{{this.fields}}</p>
+              </div>
+            </a>
+          </li>
+          
+        {{/each}}
+ 
+        </script>
+              
+        </ul>
+        
+   <a href=""><div class="read-more">Read more</div></a>
+   </div>
+   
+       
+         
+   </section>
+
+  
+   <div class="clear"></div>
+  
+  
+  
   
   
   
