@@ -4,7 +4,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 $formcontent="Contact form\n\nFrom: $name \nMessage: $message";
-$recipient = "mailxiaoyin@qq.com";
+$recipient = "name@qq.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 
