@@ -373,7 +373,7 @@ h1 span{
   margin-top:30px;
   background-color: black;
   height: 1px;
-  width:106px;
+  width:400px;
   border:0;
 
 }
@@ -381,17 +381,17 @@ h1 span{
 .about-us p.title{
   color: #a4a4a4;
   margin:40px auto;
-  width:300px;
+  width:400px;
   line-height:26px;
   letter-spacing:0;
   font-size:14px;
   font-weight:300;
-  text-align:center;
+  text-align:left;
 }
 
 .about-us h2{
   text-align:center;
-  margin-top:50px;
+  margin-top:20px;
   font-size:26px;
   color:black;
   line-height:1.2;
@@ -414,10 +414,10 @@ h1 span{
 }
 
 .about-us .column-one{
-  margin-top:40px;
+  margin-top:10px;
   width:300px;
   float:left;
-  margin-bottom:70px;
+  margin-bottom:10px;
   height:350px;
 }
 
@@ -445,10 +445,10 @@ h1 span{
 }
 
 .about-us .column-two{
-  margin-top:40px;
+  margin-top:10px;
   width:300px;
   float:left;
-  margin-bottom:70px;
+  margin-bottom:10px;
   height:350px;
 }
 
@@ -476,10 +476,10 @@ h1 span{
 
 
 .about-us .column-three{ 
-  margin-top:40px;
+  margin-top:10px;
   width:300px;
   float:left;
-  margin-bottom:70px;
+  margin-bottom:10px;
   height:350px;
 }
 
@@ -504,6 +504,109 @@ h1 span{
 .about-us .column-three .circle-three:hover{ 
   border:2px solid #ada074;
 }
+
+
+
+/* Portfolio1 */
+
+
+.portfolio1{
+  position:relative;
+  width:100%;
+  background:#FDFDFD;
+  z-index:10;
+
+}
+.portfolio1 .portfolio-margin{
+  position:relative;
+  width:900px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+.portfolio1 .portfolio-margin .read-more{
+  width:183px;
+  height:47px;
+  position:relative;
+  margin:50px auto 100px;
+  line-height:47px;
+  border:1px solid #333333;
+  text-transform:uppercase;
+  text-align:center;
+  color:#333333;
+  cursor:pointer;
+  font-size:14px;
+  background:none;
+  -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+	letter-spacing:1px;
+}
+
+.portfolio1 .portfolio-margin .read-more:hover{
+  background:#ada074;
+  color:white;
+  border:1px solid #ada074;
+}
+
+.portfolio1 .portfolio-margin h1{
+  font-size:34px;
+  color:black;
+  text-align:center;
+  margin-top:120px;
+  letter-spacing:6px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+
+
+.portfolio1 .portfolio-margin h2{
+  font-size:15px;
+  color:black;
+  text-align:left;
+  margin-top:10px;
+  margin-bottom:10px;
+  letter-spacing:1px;
+  font-weight:normal;
+  text-transform:uppercase;
+  line-height:0.6;
+}
+
+
+.portfolio1 .portfolio-margin p{
+  text-align:left;
+  font-size:14px;
+  width:800px;
+  margin-top:10px;
+  margin-bottom:10px;
+  margin-left:50px;
+  margin-right:50px;
+  color:#a4a4a4;
+  line-height:26px;
+  letter-spacing:0;
+  position:relative;
+  font-weight:300;
+  color:black;
+}
+
+.portfolio1 .portfolio-margin hr{
+  color: black;
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:900px;
+  border:0;
+}
+/* Portfolio1*/
+
+
+
+
+
+
 
 
 
@@ -563,12 +666,55 @@ h1 span{
   line-height:1.2;
 }
 
+
+.portfolio .portfolio-margin h2{
+  font-size:15px;
+  color:black;
+  text-align:left;
+  margin-top:10px;
+   margin-bottom:5px;
+  letter-spacing:1px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:0.6;
+}
+
+
+
+.portfolio #text ul.papers li {
+   margin-bottom: 10px;
+}
+
+
+.portfolio table.papers {
+  border: 2px solid #FEFFFF;
+  border-collapse: collapse;
+  border-spacing: 5px;
+}
+
+
+.portfolio table.papers table, td, th {
+    border: 2px solid 
+white;
+  background: #929999;
+  font-size: 11pt;
+  padding: 5px 5px 5px 5px;
+  white-space: normal;
+}
+
+.portfolio div.paper-summary {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
 .portfolio .portfolio-margin hr{
   color: black;
-  margin-top:30px;
+  margin-top:10px;
   background-color: black;
   height: 1px;
-  width:106px;
+  width:900px;
   border:0;
 }
 
