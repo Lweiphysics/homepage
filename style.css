@@ -872,7 +872,7 @@ input.submit{
 
 
 .footer{
-  position:fixed;
+  position:relative;
   bottom:0;
   width:100%;
   background:#3c3c3c;
